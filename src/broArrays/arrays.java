@@ -4,7 +4,7 @@ public class arrays {
     public static void main(String[] args) {
 
         // array = used to store multiple values in a single variable
-        // use arrays: [] after string, and {] to store a value
+        // use arrays: [] after string, and {} to store a value
 
 
 

@@ -12,7 +12,9 @@ public class StringMethods {
         // int result = name.length(); comprimento do nome
 
         // char result = name.charAt(1); caractere na posicao x
-        // int result = name.indexOf("B"); diz onde B está
+         int result = name.indexOf("b"); // diz onde B está
+
+        System.out.println(result);
 
        // boolean result = name.isEmpty(); indica se o nome esta em branco
 

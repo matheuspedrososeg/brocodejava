@@ -1,4 +1,4 @@
-package EstDeControle;
+package metodosJava;
 
 public class methods {
     public static void main(String[] args) {
