@@ -1,5 +1,6 @@
 package exerciciosArray;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class exercicio1 {
@@ -10,22 +11,26 @@ public class exercicio1 {
 
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("insira 5 numeros:"); // numeros digitados pelo usuario
-        int n1 = scanner.nextInt();
-        int n2 = scanner.nextInt();
-        int n3 = scanner.nextInt();
-        int n4 = scanner.nextInt();
-        int n5 = scanner.nextInt();
+        int[] numeros = new int[5];
 
-        int[] numeros = {n1 , n2 , n3 , n4 ,n5}; // array de numeros
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Insira um número inteiro: ");
+
+            numeros[i] = scanner.nextInt();
 
 
-        int soma = 0;
-        for (int i = 0; i < numeros.length; i++) {
-            soma = soma + numeros[i]; // soma do array
         }
 
-        System.out.println("A soma dos numeros é: " + soma);
+        int soma = 0;
+
+        for (int i = 0; i < numeros.length; i++) {
+            soma = soma + numeros[i];
+
+        }
+
+        System.out.println("A soma dos números inseridos é: " + soma);
+
+
 
     }
 
