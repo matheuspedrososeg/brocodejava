@@ -24,6 +24,13 @@ public class exercicio2 {
             System.out.println("insira a nota do aluno: " + (i + 1) + "°");
             notas[i] = scanner.nextDouble();
 
+
+            while (notas[i] < 0 || notas[i] > 10) {
+                System.out.println("Nota Inválida, tente novamente.");
+
+                notas[i] = scanner.nextDouble();
+
+            }
         }
 
         for (int i = 0; i < 10; i++) {

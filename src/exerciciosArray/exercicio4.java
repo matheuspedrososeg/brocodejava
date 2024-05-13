@@ -32,7 +32,7 @@ public class exercicio4 {
 
 
 
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 10; i++) {
         System.out.println("Insira o " + (i + 1) + "° número válido de 1 a 50:");
         digitado = scanner.nextInt();
 

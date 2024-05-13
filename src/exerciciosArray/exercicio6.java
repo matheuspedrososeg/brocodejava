@@ -23,7 +23,7 @@ public class exercicio6 {
 
         Arrays.sort(numeros);
 
-        System.out.print("os números em forma crescente são: ");
+        System.out.print("Os números em forma crescente são: ");
             System.out.println(Arrays.toString(numeros));
 
 
