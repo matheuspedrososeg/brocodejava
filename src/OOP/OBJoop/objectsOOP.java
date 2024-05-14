@@ -1,4 +1,4 @@
-package OOP;
+package OOP.OBJoop;
 
 public class objectsOOP {
     public static void main(String[] args) {

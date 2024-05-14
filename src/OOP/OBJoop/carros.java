@@ -1,11 +1,11 @@
-package OOP;
+package OOP.OBJoop;
 
 public class carros {
     String make = "Chevrolet";
     String model = "Chevette";
     ;
-    int year = 1991;
-    String color = "cinza";
+    int year = 1992;
+    String color = "Cinza";
     double price = 18433.00;
 
     void drive() {
@@ -15,5 +15,11 @@ public class carros {
         System.out.println("you step on the brakes.");
     }
 
+
+    public String toString() {
+
+
+        return make + "\n" + model + "\n" + color + "\n" + year;
+    }
 }
 

@@ -1,4 +1,4 @@
-package OOP;
+package OOP.constructors;
 
 public class HumanoConstructors {
 

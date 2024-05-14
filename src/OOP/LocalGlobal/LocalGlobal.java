@@ -1,4 +1,4 @@
-package OOP;
+package OOP.LocalGlobal;
 
 public class LocalGlobal {
     public static void main(String[] args) {

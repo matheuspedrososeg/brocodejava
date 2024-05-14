@@ -1,4 +1,6 @@
-package OOP;
+package OOP.constructors;
+
+import OOP.constructors.HumanoConstructors;
 
 public class HumanoMain {
     public static void main(String[] args) {

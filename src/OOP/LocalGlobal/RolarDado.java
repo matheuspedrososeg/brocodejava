@@ -1,4 +1,4 @@
-package OOP;
+package OOP.LocalGlobal;
 
 import java.util.Random;
 
