@@ -1,7 +1,5 @@
 package OOP.DynamicPolymorphism;
 
-import OOP.methodOverRiding.Animal;
-
 import java.util.Scanner;
 
 public class mainn {
