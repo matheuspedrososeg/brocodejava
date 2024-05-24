@@ -4,7 +4,7 @@ public class veiculoINHERITANCE {
 
     double speed;
 
-     void go() {
+     void go()  {
         System.out.println("this vehicle is moving");
     }
 
