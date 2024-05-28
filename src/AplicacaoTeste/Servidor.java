@@ -1,0 +1,26 @@
+package AplicacaoTeste;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Servidor {
+    public static void main(String[] args) {
+
+        System.out.println("Esperando por cliente.");
+        try {
+            ServerSocket ss = new ServerSocket(9806);
+            Socket soc = ss.accept();
+            System.out.println("Conexão Estabelecida.");
+            BufferedReader in = new BufferedReader(new InputStreamReader(soc.getInputStream()));
+            String str = in.readLine();
+            PrintWriter out = new PrintWriter(soc.getOutputStream(), true);
+            out.println("Server diz: " + str);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+}
